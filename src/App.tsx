@@ -1,9 +1,10 @@
 import React from 'react';
+import HomePageContainer from './views/containers/homePage';
 
 function App() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>hello world</h1>
+      <HomePageContainer />
     </div>
   );
 }
